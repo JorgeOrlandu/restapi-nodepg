@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/home/gulliver/dev/restapi-nodepg/nodepg/lib/node_modules'
+export NPM_CONFIG_PREFIX='/home/gulliver/dev/restapi-nodepg/nodepg'
+export npm_config_prefix='/home/gulliver/dev/restapi-nodepg/nodepg'
+exec 'nodepg/bin/node' "$@"
